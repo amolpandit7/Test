@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 if (editEmail.getText().toString().equals("mailtopandit7@gmail.com")&
                         editPassword.getText().toString().length()==8){
 
-                    Toast.makeText(MainActivity.this, "Welcomr", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(MainActivity.this,"Invalid email",Toast.LENGTH_SHORT).show();
                 }
